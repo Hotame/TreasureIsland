@@ -27,11 +27,11 @@ print("Your Mission Is To Find The Treasure.")
 
 direction = input('You\'re At The Bottom Of The Sea, Which Way Do You Wanna Go? Type "Up" Or "Down" ').lower()
 
-if(direction == "up"):
+if direction == "up":
     take_Or_Explore = input('You Arrive At A Dock Near A Deserted Town, Would You Like To The "Take" The Boat Or "Explore" The Town? ').lower()
-    if(take_Or_Explore == "take"):
+    if take_Or_Explore == "take":
         hole = input('You\'ve Just Reached A Dungeon Far Far Away, As You Go Through It You Get Lost. You Have Three Holes In Front Of You, "First", "Second", "Third" ').lower()
-        if(hole == "second"):
+        if hole == "second":
             print("You Entered The Hole Full Of Treasure, You Win.")
         else:
             print("You Get Lost In The Cave And Die Of Starvation. Game Over.")
